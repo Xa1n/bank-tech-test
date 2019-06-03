@@ -21,13 +21,49 @@ for a specific software job.
 **When** they print their bank statement,
 **Then** they would see:
 
+```
 date       || credit  || debit  || balance
 14/01/2019 ||         || 500.00 || 2500.00
 13/01/2019 || 2000.00 ||        || 3000.00
 10/01/2019 || 1000.00 ||        || 1000.00
+```
 
 ### User Stories
 
 ```
+As someone with a bank account,
+So that I can see details about my money,
+I'd like a log that displays my transactions.
+
+As a bank account user,
+So that I know when I made a withdrawal,
+I'd like a list of dates in my log next to the specific amounts I withdrew.
+
+As a bank account user,
+So that I know when I made a deposit,
+I'd like a list of dates in my log next to the specific amounts I deposited.
+
+As a bank account user,
+So that I don't overspend,
+I would like to see my current and past balances.
 
 ```
+
+### Visualisation
+
+```
+|| Objects || Messages ||
+-------------------------
+  Account  || Display
+  Dates    || Time record
+  Balance  || Add money
+           || Deduct money
+```
+
+### Technologies/Dependencies
+
+* Ruby
+* RSpec
+* Table_print gem
+* Rubocop
+* Simplecov
