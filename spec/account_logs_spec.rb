@@ -1,5 +1,4 @@
-require 'account_logs'
-require 'timecop'
+require 'account_display'
 
 RSpec.describe Display do
 
