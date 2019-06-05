@@ -1,7 +1,6 @@
 require 'simplecov'
 require 'simplecov-console'
 require 'rspec'
-require 'table_print'
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
   SimpleCov::Formatter::Console,

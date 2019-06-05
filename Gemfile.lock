@@ -44,9 +44,9 @@ GEM
       simplecov
       terminal-table
     simplecov-html (0.10.2)
-    table_print (1.5.6)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
+    timecop (0.9.1)
     unicode-display_width (1.5.0)
 
 PLATFORMS
@@ -58,7 +58,10 @@ DEPENDENCIES
   rubocop-performance
   simplecov (~> 0.16.1)
   simplecov-console
-  table_print
+  timecop
+
+RUBY VERSION
+   ruby 2.6.0p0
 
 BUNDLED WITH
-   1.16.6
+   1.17.2
