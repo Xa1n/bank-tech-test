@@ -64,6 +64,5 @@ I would like to see my current and past balances.
 
 * Ruby
 * RSpec
-* Table_print gem
 * Rubocop
 * Simplecov

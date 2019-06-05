@@ -7,6 +7,8 @@
         null,
         1,
         null,
+        1,
+        null,
         2,
         null,
         1,
@@ -18,18 +20,23 @@
       "/Users/xainstorey/Desktop/Makers/challenges/bank-tech-test/lib/bank_account.rb": [
         1,
         null,
+        1,
         null,
+        1,
+        1,
         null,
+        1,
         1,
         null,
         null,
         1,
+        0,
         null,
         null,
         null,
         null
       ]
     },
-    "timestamp": 1559571874
+    "timestamp": 1559575789
   }
 }
