@@ -66,3 +66,55 @@ I would like to see my current and past balances.
 * RSpec
 * Rubocop
 * Simplecov
+
+
+### Set up
+
+Clone this repository. Cd to it in your terminal and download the dependencies with: 
+```
+bundle install
+```
+
+### How to use
+
+In your terminal, open up your REPL:
+```
+irb
+```
+
+Then require the files:
+```
+require './lib/bank_account'
+require './lib/account_display'
+```
+
+In order to have the bank account, you must create an instance of it:
+```
+account = Account.new
+```
+
+If you write the above, the account will be created with a starting balance of 0.00 and the date as the present date in day/month/year format. You can manipulate the starting balance and the date by passing in optional parameters, like so:
+```
+account = Account.new([starting_amount, date])
+```
+
+You can then run a set of methods with the instantiated account.
+```
+account.deposit(required_parameter)
+account.withdraw(required_parameter)
+account.current_balance
+```
+
+In order to display a table of your transactions, you have to create an instance of the Display class in the same way as the account, like so:
+```
+display = Display.new(account.logs)
+display.display_account
+```
+Running the second command will give the raw code of the method. If you want to see it in the correct table format, you must use 'puts':
+```
+puts display.display_account
+```
+
+To run the tests, exit out of irb and simply type 'rspec' in the command line. All tests should pass and coverage should be at 100%
+
+Thank you!
