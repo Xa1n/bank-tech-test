@@ -117,4 +117,8 @@ puts display.display_account
 
 To run the tests, exit out of irb and simply type 'rspec' in the command line. All tests should pass and coverage should be at 100%
 
+### Screenshot
+
+![screenshot](/screenshot.png)
+
 Thank you!
